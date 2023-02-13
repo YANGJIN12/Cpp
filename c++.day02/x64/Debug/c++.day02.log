@@ -1,3 +1,0 @@
-﻿  main.cpp
-D:\1600_c++_yj\c++.day02\c++.day02\main.cpp(252,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
-  c++.day02.vcxproj -> D:\1600_c++_yj\c++.day02\x64\Debug\c++.day02.exe
