@@ -1,12 +1,12 @@
-// 1. µ¿ÀûÇÒ´çÀÇ º¯È­ 
+// 1. ë™ì í• ë‹¹ì˜ ë³€í™” 
 // malloc(sizeof)
 // delete[] a;
 // }
 
-// 2. ³×ÀÓ½ºÆäÀÌ½º
-// ³×ÀÓ½ºÆäÀÌ½º > ÀÌ¸§ °ø°£
+// 2. ë„¤ì„ìŠ¤í˜ì´ìŠ¤
+// ë„¤ì„ìŠ¤í˜ì´ìŠ¤ > ì´ë¦„ ê³µê°„
 
-// Begin - ¼­¿ï
+// Begin - ì„œìš¸
 // A
 // B
 // C
@@ -22,7 +22,7 @@ namespace B {
 }
 
 #include <iostream>
-// using > namespaceÀÇ ±â´É°ú Á¤ ¹İ´ë
+// using > namespaceì˜ ê¸°ëŠ¥ê³¼ ì • ë°˜ëŒ€
 // using std::cout;
 // using A::A;
 // void cout(){}
@@ -40,8 +40,8 @@ namespace B {
 //	}
 //}
 
-// std ÀÌ¸§ °ø°£ ¾È¿¡ ¼ıÀÚ 3°³Áß °¡Àå Å«¼ö¸¦ ±¸ÇÏ´Â ÇÔ¼ö¸¦ Ãß°¡ÇÏ½Ã¿À
-// std ÀÌ¸§ °ø°£ ¾È¿¡ A ÀÌ¸§°ø°£À» Ãß°¡ÇÏ½Ã¿À
+// std ì´ë¦„ ê³µê°„ ì•ˆì— ìˆ«ì 3ê°œì¤‘ ê°€ì¥ í°ìˆ˜ë¥¼ êµ¬í•˜ëŠ” í•¨ìˆ˜ë¥¼ ì¶”ê°€í•˜ì‹œì˜¤
+// std ì´ë¦„ ê³µê°„ ì•ˆì— A ì´ë¦„ê³µê°„ì„ ì¶”ê°€í•˜ì‹œì˜¤
 //namespace std {
 
 	//int big2(int a, int b) {
@@ -59,8 +59,8 @@ namespace B {
 #include <iostream>
 using namespace std;
 
-// 3. ¿À¹ö·Îµù - µğÆúÆ® ¸Å°³º¯¼ö
-// ¿À¹ö·Îµù > µ¿ÀÏÇÑ ÀÌ¸§ÀÇ ÇÔ¼ö¸¦ ÀÎÀÚÀÇ Å¸ÀÔ, °³¼ö·Î ±¸ºĞÇØ¼­ ÀÌ¿ëÇÏ´Â ±â´É
+// 3. ì˜¤ë²„ë¡œë”© - ë””í´íŠ¸ ë§¤ê°œë³€ìˆ˜
+// ì˜¤ë²„ë¡œë”© > ë™ì¼í•œ ì´ë¦„ì˜ í•¨ìˆ˜ë¥¼ ì¸ìì˜ íƒ€ì…, ê°œìˆ˜ë¡œ êµ¬ë¶„í•´ì„œ ì´ìš©í•˜ëŠ” ê¸°ëŠ¥
 //int big(int a, int b) { return a > b ? a : b; }
 //int big(int a, int b, int c) { return big(big(a, b), c); }
 //float big(float a, float b) { return a > b ? a : b; }
@@ -108,11 +108,11 @@ using namespace std;
 //	sum(1, 2, 3, 4, 5, 6);
 //}
 
-// ¼ıÀÚ N°³¸¦ ÀÔ·Â¹Ş¾Æ °¡Àå Å«¼ö¸¦ ±¸ÇÏ´Â ÇÔ¼ö
-// ¼ıÀÚ N°³¸¦ ÀÔ·Â¹Ş¾Æ °¡Àå ÀÛÀº¼ö¸¦ ±¸ÇÏ´Â ÇÔ¼ö
-// ¼ıÀÚ N°³¸¦ ÀÔ·Â¹Ş¾Æ Æò±ÕÀ» ±¸ÇÏ´Â ÇÔ¼ö
-// À§ ÇÔ¼ö¸¦ µğÆúÆ® ¸Å°³º¯¼ö, ¿À¹ö·ÎµùÀ» ÀÌ¿ëÇÏ¿© ¸¸µå½Ã¿À
-// NÀº ÃÖ´ë 4
+// ìˆ«ì Nê°œë¥¼ ì…ë ¥ë°›ì•„ ê°€ì¥ í°ìˆ˜ë¥¼ êµ¬í•˜ëŠ” í•¨ìˆ˜
+// ìˆ«ì Nê°œë¥¼ ì…ë ¥ë°›ì•„ ê°€ì¥ ì‘ì€ìˆ˜ë¥¼ êµ¬í•˜ëŠ” í•¨ìˆ˜
+// ìˆ«ì Nê°œë¥¼ ì…ë ¥ë°›ì•„ í‰ê· ì„ êµ¬í•˜ëŠ” í•¨ìˆ˜
+// ìœ„ í•¨ìˆ˜ë¥¼ ë””í´íŠ¸ ë§¤ê°œë³€ìˆ˜, ì˜¤ë²„ë¡œë”©ì„ ì´ìš©í•˜ì—¬ ë§Œë“œì‹œì˜¤
+// Nì€ ìµœëŒ€ 4
 
 //int big(int a, int b, int c = INT_MAX, int d = INT_MAX) {
 //	if (a > b && a > c && a > d) return a;
@@ -129,9 +129,9 @@ using namespace std;
 //
 //int avg(int n, int m, int a, int b) { return (n + m + a + b) / 4; }
 
-// 4. ¶÷´Ù ÇÔ¼ö
-// ÇÊ¿äÇÒ¶§ ÇÔ¼ö¸¦ Àá±ñ »ı¼ºÇØ¼­ »ç¿ëÇÏ´Â ±â´É
-// ÇÔ¼ö¸¦ ¹Ì¸® Á¤ÀÇÇÏÁö ¾Ê°í ÇÊ¿äÇÑ ¼ø°£¿¡¸¸ »ç¿ëÇÒ¼ö ÀÖ´Â ±â´É
+// 4. ëŒë‹¤ í•¨ìˆ˜
+// í•„ìš”í• ë•Œ í•¨ìˆ˜ë¥¼ ì ê¹ ìƒì„±í•´ì„œ ì‚¬ìš©í•˜ëŠ” ê¸°ëŠ¥
+// í•¨ìˆ˜ë¥¼ ë¯¸ë¦¬ ì •ì˜í•˜ì§€ ì•Šê³  í•„ìš”í•œ ìˆœê°„ì—ë§Œ ì‚¬ìš©í• ìˆ˜ ìˆëŠ” ê¸°ëŠ¥
 
 //struct Unit {
 //	int hp;
@@ -158,31 +158,31 @@ using namespace std;
 //}
 //
 //void PowerAttack(struct Unit& attacker, struct Unit& defender) {
-//	cout << " ÆÄ¿ö ¾îÅÃ! " << endl;
+//	cout << " íŒŒì›Œ ì–´íƒ! " << endl;
 //	if (attacker.mp >= 10) {
 //		defender.hp -= attacker.atk - defender.def;
 //		defender.mp -= 10;
 //	}
 //	else
-//		cout << " ¸¶³ª°¡ ºÎÁ·ÇÕ´Ï´Ù. " << endl;
+//		cout << " ë§ˆë‚˜ê°€ ë¶€ì¡±í•©ë‹ˆë‹¤. " << endl;
 //}
 //#include <windows.h>
 //void main() {
 //	
-//	// ¿ø¸®´Â ¸Å¿ì °£´Ü
-//	// ÇÔ¼ö  > ÄÚµåÀÇ ÁıÇÕ > ¹è¿­°ú ºñ½Á
-//	// [](ÀÎÀÚ°ª)->¸®ÅÏÅ¸ÀÔ{ ³»¿ë }
+//	// ì›ë¦¬ëŠ” ë§¤ìš° ê°„ë‹¨
+//	// í•¨ìˆ˜  > ì½”ë“œì˜ ì§‘í•© > ë°°ì—´ê³¼ ë¹„ìŠ·
+//	// [](ì¸ìê°’)->ë¦¬í„´íƒ€ì…{ ë‚´ìš© }
 //
 //	Unit player, monster;
 //	SetUnit(player, 100, 100, 10, 5,
 //		[](struct Unit& attacker, struct Unit& defender)->void {
-//		cout << " ¹°¸® °ø°İ! " << endl;
+//		cout << " ë¬¼ë¦¬ ê³µê²©! " << endl;
 //		defender.hp -= attacker.atk - defender.def;
 //	}
 //	, PowerAttack, 0);
 //	SetUnit(monster, 50, 50, 7, 3,
 //		[](struct Unit& attacker, struct Unit& defender)->void {
-//			cout << " ¹°¸® °ø°İ! " << endl;
+//			cout << " ë¬¼ë¦¬ ê³µê²©! " << endl;
 //	defender.hp -= attacker.atk - defender.def;
 //		}
 //	, PowerAttack, 0);
@@ -201,9 +201,13 @@ using namespace std;
 //		cout << " Def: " << monster.def << endl << endl << endl;
 //
 //		int sel;
-//		cout << " 1. ÀÏ¹İ°ø°İ 2. ½ºÅ³1 3. ½ºÅ³2" << endl << "  >>> ";
+//		cout << " 1. ì¼ë°˜ê³µê²© 2. ìŠ¤í‚¬1 3. ìŠ¤í‚¬2" << endl << "  >>> ";
 //		cin >> sel;
-//		cout << " Player: ";
+//		if (sel == 1) player.Attack(player.monster);
+//		else if (sel == 2) player.Spell1(player.monster);
+//		cout << " Monster:  ";
+//		monster.Attack(monster, player);
+//		Sleep(1500);
 //		
 //
 //
@@ -212,7 +216,7 @@ using namespace std;
 
 //void main() {
 //	int x = 5;
-//	// Capture(Ä¸ÃÄ)
+//	// Capture(ìº¡ì³)
 //	auto a = [&]()->void {
 //		x = 7;
 //	};
@@ -239,6 +243,10 @@ using namespace std;
 //			});
 //	}
 //}
+
+// ëŒë‹¤í•¨ìˆ˜ë¥¼ ì´ìš©í•˜ì—¬ êµ¬êµ¬ë‹¨ ì¶œë ¥
+// ë‹¨ì˜ ì‹œì‘ê³¼ ë§ˆì§€ë§‰ì— íŠ¹ì • ì¶œë ¥ì„ ìº¡ì³ë¥¼ ì´ìš©í•˜ì—¬ ê³ ì •
+
 auto cr(function<void(int)>act, const char* begin, const char* end) {
 	return [begin, end, act]()->void {
 		for (int i = 1; i <= 9; ++i) {
@@ -250,11 +258,11 @@ auto cr(function<void(int)>act, const char* begin, const char* end) {
 }
 
 void main() {
-	auto dan = [](int n)->void {
+	auto dan = [&](int n)->void {
 		for (int x = 1; x <= 9; ++x) {
 			cout << n << " * " << x << " = " << n * x << " ";
 		}
 	};
-	auto gugudan = cr(dan, "----´Ü½ÃÀÛ-----\n", "\n------´Ü³¡------\n");
+	auto gugudan = cr(dan, "----ë‹¨ì‹œì‘-----\n", "\n------ë‹¨ë------\n");
 	gugudan();
 }
